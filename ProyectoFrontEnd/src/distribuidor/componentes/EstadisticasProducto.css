@@ -1,0 +1,64 @@
+
+/* NUEVO ***/
+.distribuidor-estadisticas-inventario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .distribuidor-estadistica-item {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .distribuidor-estadistica-item h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .distribuidor-titulo-azul {
+    color: #007bff;
+  }
+  
+  .distribuidor-titulo-naranja {
+    color: #ff7f50; 
+  }
+  
+  .distribuidor-titulo-morado {
+    color: #6f42c1; 
+  }
+  
+  .distribuidor-titulo-rojo {
+    color: #e12427; 
+  }
+  
+  .distribuidor-contenido-dos{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  
+  .distribuidor-estadistica-item .valor {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .distribuidor-estadistica-item .descripcion {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .distribuidor-divider {
+    width: 1px;
+    background-color: #e6e6e6;
+    height: 80px;
+    margin: 0 20px;
+  }

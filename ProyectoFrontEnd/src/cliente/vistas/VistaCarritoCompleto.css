@@ -1,0 +1,128 @@
+.vista-carrito-app {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* CONTENIDO PRINCIPAL */
+.vista-carrito-principal {
+    display: flex;
+    padding: 50px;
+    gap: 60px;
+    flex: 2;
+}
+
+.tabla-carrito {
+    flex : 4;
+    width: 100%;
+    min-height: 40%;
+    
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+
+.tabla-carrito th {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+
+    background-image: url('../../pictures/fondoFooterBack.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carrito-cliente-fila {
+    height: 150px;
+}
+
+.vista-carrito-cliente-imagen {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.tabla-carrito td {
+    text-align: center;  
+    padding: 4px 8px; 
+    vertical-align: center; 
+    min-height: 30px;
+     
+}
+
+.cliente-carrito-btn-eliminar {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* SECCIÓN RESUMEN */
+.cliente-carrito-resumen {
+    flex: 1;
+    height: 250px;
+    /*background: linear-gradient(to right, #ffa17f, #ff7a7a);*/
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 30px 0;
+
+    background-image: url('../../pictures/fondoBack.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cliente-carrito-resumen h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.resumen-detalle p {
+    font-size: 1rem;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-comprar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-comprar:hover {
+    background-color: #45a049;
+}
+
+/* BOTÓN ATRÁS */
+.btn-atras {
+    padding: 10px 20px;
+}
+
+.btn-atras button {
+    background-color: white;
+    color: #ff4500;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.btn-atras button:hover {
+    color: red;
+}
+
+

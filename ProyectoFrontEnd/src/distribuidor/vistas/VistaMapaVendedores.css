@@ -1,0 +1,82 @@
+.distribuidor-mapa-app {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.distribuidor-mapa-busqueda-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to right, #ff7f50, #ff9966);
+    color: white;
+}
+
+.distribuidor-mapa-busqueda-container label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.distribuidor-mapa-busqueda-container input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+}
+
+.distribuidor-mapa-contenido {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex: 1;
+    overflow: hidden;
+}
+
+.distribuidor-mapa-vendedores-container {
+    flex: 2;
+}
+
+.distribuidor-mapa-vendedores-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.distribuidor-mapa-vendedor-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.distribuidor-mapa-vendedor-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ff7f50;
+}
+
+.distribuidor-mapa-vendedor-info {
+    padding: 10px;
+}
+
+.distribuidor-mapa-estado {
+    font-weight: bold;
+    color: green;
+}
+
+.distribuidor-mapa-container {
+    flex: 2;
+    background-color: aqua;
+    height: 1000px;
+    overflow: hidden;
+}
+.MapContainer {
+    height: 100%;
+    width: 100%;
+}
+
+

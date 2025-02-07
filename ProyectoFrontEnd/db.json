@@ -1,0 +1,707 @@
+{
+  "roles": [
+    {
+      "rolesId": 1,
+      "nombreRol": "Cliente",
+      "id": "bb5f"
+    },
+    {
+      "rolesId": 2,
+      "nombreRol": "Vendedor",
+      "id": "74fd"
+    },
+    {
+      "rolesId": 3,
+      "nombreRol": "Distribuidor",
+      "id": "70d4"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Estefania Martinez",
+      "correo": "estefania@gmail.com",
+      "password": "estefania",
+      "direccion": "Amazonas",
+      "imagenPerfil": "https://static.vecteezy.com/system/resources/thumbnails/052/938/254/small/silhouette-of-woman-wearing-sunglasses-showcasing-stylish-profile-image-captures-sense-of-mystery-and-elegance-perfect-for-fashion-or-lifestyle-themes-free-photo.jpeg",
+      "rolesId": 1
+    },
+    {
+      "id": "2",
+      "nombre": "Pedro Lopez",
+      "correo": "pedro@gmail.com",
+      "password": "pedro",
+      "direccion": "Autopista",
+      "imagenPerfil": "https://st.depositphotos.com/2128411/2341/i/450/depositphotos_23414308-stock-photo-typical-upper-body-man-silhouette.jpg",
+      "rolesId": 2
+    },
+    {
+      "id": "3",
+      "nombre": "Admin",
+      "correo": "admin@gmail.com",
+      "password": "admin123",
+      "direccion": "Centro de Distribución",
+      "rolesId": 3
+    },
+    {
+      "id": "4",
+      "nombre": "Pablito",
+      "correo": "pablito@gmail.com",
+      "password": "pablito",
+      "direccion": "Av. Colon",
+      "rolesId": 1
+    }
+  ],
+  "direcciones": [
+    {
+      "id": "1",
+      "userId": "1",
+      "direccion": "Av. Amazonas, Quito",
+      "esPrincipal": true
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "direccion": "Centro Comercial XYZ",
+      "esPrincipal": false
+    },
+    {
+      "id": "a156",
+      "userId": "1",
+      "direccion": "ABCDCD",
+      "esPrincipal": false
+    },
+    {
+      "id": "49ac",
+      "userId": "4",
+      "direccion": "Amazonas",
+      "esPrincipal": false
+    }
+  ],
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "GLP Cilindro Doméstico",
+      "tipo": "GLP en Cilindros",
+      "subtipo": "Doméstico",
+      "peso": "15kg",
+      "precio": 3.5,
+      "descripcion": "Gas doméstico ideal para el hogar.",
+      "imagenes": [
+        "https://www.congasca.com/wp-content/uploads/slider/cache/70503dd218e9c0e4dce649eaebbea03f/congas-banner5.jpg",
+        "https://planv.com.ec/wp-content/uploads/2024/07/congas-foto-1-1024x576.jpg",
+        "https://ssicointec.com/wp-content/uploads/2018/08/ssicointec-talleres-reparacion-tanques-acer-glp-01.png"
+      ],
+      "imagenPrincipal": "https://www.congasca.com/wp-content/uploads/2022/10/congas-cilindro.png",
+      "informacionAdicional": "Nuestro producto proporciona una solución eficaz a las necesidades energéticas de los usuarios de GLP envasado. A través de nuestra red de Distribuidores Oficiales, ofrecemos una amplia cobertura a nivel país. El proceso de envasado está desarrollado con tecnología y procedimientos que aseguran el cumplimiento de los más altos estándares de calidad y respecto hacia el medio ambiente."
+    },
+    {
+      "id": "2",
+      "nombre": "GLP Cilindro Comercial Tipo I",
+      "tipo": "GLP en Cilindros",
+      "subtipo": "Comercial",
+      "peso": "15kg",
+      "precio": 3.5,
+      "descripcion": "Gas ideal para comercios de pequeña y mediana escala",
+      "imagenes": [
+        "https://www.congasca.com/wp-content/uploads/slider/cache/70503dd218e9c0e4dce649eaebbea03f/congas-banner5.jpg",
+        "https://planv.com.ec/wp-content/uploads/2024/07/congas-foto-1-1024x576.jpg",
+        "https://ssicointec.com/wp-content/uploads/2018/08/ssicointec-talleres-reparacion-tanques-acer-glp-01.png"
+      ],
+      "imagenPrincipal": "https://www.congasca.com/wp-content/uploads/2022/10/cilindro_industrial.png",
+      "informacionAdicional": "Ofrecemos soluciones integrales y competitivas a nuestros clientes comerciales actuales y potenciales a través de la utilización de un combustible, confiable, seguro y amigable con el medio ambiente. Cada día son más los establecimientos de comercio como restaurantes, hoteles, panaderías, hospitales y lavanderías que se benefician con las ventajas del GLP en sus procesos productivos."
+    },
+    {
+      "id": "3",
+      "nombre": "GLP Cilindro Comercial Tipo II",
+      "tipo": "GLP en Cilindros",
+      "subtipo": "Comercial",
+      "peso": "45kg",
+      "precio": 8,
+      "descripcion": "Gas ideal para comercios de gran escala",
+      "imagenes": [
+        "https://www.congasca.com/wp-content/uploads/slider/cache/70503dd218e9c0e4dce649eaebbea03f/congas-banner5.jpg",
+        "https://planv.com.ec/wp-content/uploads/2024/07/congas-foto-1-1024x576.jpg",
+        "https://ssicointec.com/wp-content/uploads/2018/08/ssicointec-talleres-reparacion-tanques-acer-glp-01.png"
+      ],
+      "imagenPrincipal": "https://www.congasca.com/wp-content/uploads/2022/10/cilindro_industrial.png",
+      "informacionAdicional": "Ofrecemos soluciones integrales y competitivas a nuestros clientes comerciales actuales y potenciales a través de la utilización de un combustible, confiable, seguro y amigable con el medio ambiente. Cada día son más los establecimientos de comercio como restaurantes, hoteles, panaderías, hospitales y lavanderías que se benefician con las ventajas del GLP en sus procesos productivos."
+    },
+    {
+      "id": "4",
+      "nombre": "GLP Granel Residencial",
+      "tipo": "GLP a Granel",
+      "subtipo": "Residencial",
+      "peso": "1000L",
+      "precio": 3,
+      "descripcion": "Gas a granel para residencias grandes.",
+      "imagenes": [
+        "https://www.congasca.com/wp-content/uploads/slider/cache/70503dd218e9c0e4dce649eaebbea03f/congas-banner5.jpg",
+        "https://planv.com.ec/wp-content/uploads/2024/07/congas-foto-1-1024x576.jpg",
+        "https://ssicointec.com/wp-content/uploads/2018/08/ssicointec-talleres-reparacion-tanques-acer-glp-01.png"
+      ],
+      "imagenPrincipal": "https://www.congasca.com/wp-content/uploads/2022/02/congas-residencial.jpg",
+      "informacionAdicional": "En CONGAS creamos soluciones personalizadas para satisfacer los requerimientos energéticos de los usuarios de GLP a granel. Nos adecuamos a tu espacio y equipos de consumo, aplicando la solución más conveniente, brindando seguridad para ti y tu familia."
+    },
+    {
+      "id": "5",
+      "nombre": "GLP Granel Industrial",
+      "tipo": "GLP a Granel",
+      "subtipo": "Industrial",
+      "peso": "2000L",
+      "precio": 7.5,
+      "descripcion": "Gas a granel para industrias.",
+      "imagenes": [
+        "https://www.congasca.com/wp-content/uploads/slider/cache/70503dd218e9c0e4dce649eaebbea03f/congas-banner5.jpg",
+        "https://planv.com.ec/wp-content/uploads/2024/07/congas-foto-1-1024x576.jpg",
+        "https://ssicointec.com/wp-content/uploads/2018/08/ssicointec-talleres-reparacion-tanques-acer-glp-01.png"
+      ],
+      "imagenPrincipal": "https://www.congasca.com/wp-content/uploads/2022/10/congas-cilindro.png",
+      "informacionAdicional": "Gas a granel especialmente diseñado para necesidades industriales, disponible en volúmenes de 2000L."
+    },
+    {
+      "id": "6",
+      "nombre": "GLP Granel Residencial",
+      "tipo": "GLP a Granel",
+      "subtipo": "Residencial",
+      "peso": "1000L",
+      "precio": 4,
+      "descripcion": "Gas a granel para residencias grandes.",
+      "imagenes": [
+        "https://www.congasca.com/wp-content/uploads/slider/cache/70503dd218e9c0e4dce649eaebbea03f/congas-banner5.jpg",
+        "https://planv.com.ec/wp-content/uploads/2024/07/congas-foto-1-1024x576.jpg",
+        "https://ssicointec.com/wp-content/uploads/2018/08/ssicointec-talleres-reparacion-tanques-acer-glp-01.png"
+      ],
+      "imagenPrincipal": "https://www.congasca.com/wp-content/uploads/2022/10/congas-cilindro.png",
+      "informacionAdicional": "Gas a granel de alta eficiencia para hogares grandes, disponible en volúmenes de 1000L."
+    },
+    {
+      "id": "7",
+      "nombre": "GLP Granel AgroIndustrial",
+      "tipo": "GLP a Granel",
+      "subtipo": "AgroIndustrial",
+      "peso": "2000L",
+      "precio": 10.5,
+      "descripcion": "Gas a granel para industrias.",
+      "imagenes": [
+        "https://www.congasca.com/wp-content/uploads/slider/cache/70503dd218e9c0e4dce649eaebbea03f/congas-banner5.jpg",
+        "https://planv.com.ec/wp-content/uploads/2024/07/congas-foto-1-1024x576.jpg",
+        "https://ssicointec.com/wp-content/uploads/2018/08/ssicointec-talleres-reparacion-tanques-acer-glp-01.png"
+      ],
+      "imagenPrincipal": "https://www.congasca.com/wp-content/uploads/2022/10/congas-cilindro.png",
+      "informacionAdicional": "Gas a granel para sectores agroindustriales, con un volumen de 2000L por cilindro."
+    }
+  ],
+  "tarjetasCredito": [
+    {
+      "id": "1",
+      "userId": "1",
+      "metodoPagoId": 1,
+      "tipoTarjeta": "Visa",
+      "numeroTarjeta": "1234123412341234",
+      "mesExpiracion": "12",
+      "yearExpiracion": "2025",
+      "codigoSeguridad": "123"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "metodoPagoId": 1,
+      "tipoTarjeta": "Mastercard",
+      "numeroTarjeta": "5678567856785678",
+      "mesExpiracion": "08",
+      "yearExpiracion": "2025",
+      "codigoSeguridad": "123"
+    },
+    {
+      "id": "3219",
+      "tipoTarjeta": "American Express",
+      "numeroTarjeta": "123456789",
+      "mesExpiracion": "08",
+      "yearExpiracion": "2026",
+      "codigoSeguridad": "124",
+      "userId": 1,
+      "metodoPagoId": 1
+    },
+    {
+      "id": "3f8d",
+      "tipoTarjeta": "Mastercard",
+      "numeroTarjeta": "1234567891234567",
+      "mesExpiracion": "03",
+      "yearExpiracion": "33",
+      "codigoSeguridad": "1234",
+      "userId": 1,
+      "metodoPagoId": 1
+    },
+    {
+      "id": "1dae",
+      "tipoTarjeta": "Mastercard",
+      "numeroTarjeta": "1234564545454545",
+      "mesExpiracion": "03",
+      "yearExpiracion": "27",
+      "codigoSeguridad": "456",
+      "userId": 1,
+      "metodoPagoId": 1
+    },
+    {
+      "id": "6808",
+      "tipoTarjeta": "Discover",
+      "numeroTarjeta": "4444444444444444",
+      "mesExpiracion": "04",
+      "yearExpiracion": "28",
+      "codigoSeguridad": "123",
+      "userId": 1,
+      "metodoPagoId": 1
+    },
+    {
+      "id": "9123",
+      "tipoTarjeta": "American Express",
+      "numeroTarjeta": "1111111111111111",
+      "mesExpiracion": "01",
+      "yearExpiracion": "29",
+      "codigoSeguridad": "1234",
+      "userId": 1,
+      "metodoPagoId": 1
+    },
+    {
+      "id": "721c",
+      "tipoTarjeta": "Visa",
+      "numeroTarjeta": "2222222222222222",
+      "mesExpiracion": "02",
+      "yearExpiracion": "27",
+      "codigoSeguridad": "222",
+      "userId": 1,
+      "metodoPagoId": 1
+    },
+    {
+      "id": "f11d",
+      "tipoTarjeta": "Mastercard",
+      "numeroTarjeta": "2222222222222222",
+      "mesExpiracion": "09",
+      "yearExpiracion": "28",
+      "codigoSeguridad": "123",
+      "userId": 1,
+      "metodoPagoId": 1
+    },
+    {
+      "id": "0d1e",
+      "tipoTarjeta": "Mastercard",
+      "numeroTarjeta": "1111111111111111",
+      "mesExpiracion": "04",
+      "yearExpiracion": "27",
+      "codigoSeguridad": "124",
+      "userId": 1,
+      "metodoPagoId": 1
+    },
+    {
+      "id": "2014",
+      "tipoTarjeta": "Discover",
+      "numeroTarjeta": "7777777777777777",
+      "mesExpiracion": "02",
+      "yearExpiracion": "28",
+      "codigoSeguridad": "124",
+      "userId": 1,
+      "metodoPagoId": 1
+    },
+    {
+      "id": "46ef",
+      "tipoTarjeta": "Mastercard",
+      "numeroTarjeta": "2222222222222222",
+      "mesExpiracion": "02",
+      "yearExpiracion": "29",
+      "codigoSeguridad": "222",
+      "userId": 1,
+      "metodoPagoId": 1
+    },
+    {
+      "id": "24cc",
+      "tipoTarjeta": "Mastercard",
+      "numeroTarjeta": "2222222222222222",
+      "mesExpiracion": "02",
+      "yearExpiracion": "27",
+      "codigoSeguridad": "222",
+      "userId": 1,
+      "metodoPagoId": 1
+    },
+    {
+      "id": "68f4",
+      "tipoTarjeta": "Mastercard",
+      "numeroTarjeta": "9999999999999999",
+      "mesExpiracion": "02",
+      "yearExpiracion": "27",
+      "codigoSeguridad": "222",
+      "userId": "4",
+      "metodoPagoId": 1
+    }
+  ],
+  "metodosPago": [
+    {
+      "id": "1",
+      "nombre": "Tarjeta de Crédito",
+      "descripcion": "Visa, MasterCard, Discover, American Express"
+    },
+    {
+      "id": "2",
+      "nombre": "Efectivo",
+      "descripcion": "Pago en efectivo al momento de la entrega"
+    }
+  ],
+  "pedido": [
+    {
+      "id": "1",
+      "userId": 1,
+      "ubicacion": "Av. Colon, Quito",
+      "estado": "pendiente",
+      "total": 13
+    },
+    {
+      "id": "cd34",
+      "userId": "1",
+      "ubicacion": "Amazonas",
+      "estado": "pendiente",
+      "total": 7.5,
+      "productos": [
+        {
+          "productoId": "1",
+          "cantidad": 2,
+          "total": 7
+        }
+      ],
+      "metodoPago": 1,
+      "tarjetaId": "2"
+    },
+    {
+      "id": "d75d",
+      "userId": "1",
+      "ubicacion": "Amazonas",
+      "estado": "pendiente",
+      "total": 8,
+      "productos": [
+        {
+          "productoId": "4",
+          "cantidad": 1,
+          "total": 7.5
+        }
+      ],
+      "metodoPago": 1,
+      "tarjetaId": "2"
+    },
+    {
+      "id": "1dd5",
+      "userId": "1",
+      "ubicacion": "Amazonas",
+      "estado": "pendiente",
+      "total": 7.5,
+      "productos": [
+        {
+          "productoId": "2",
+          "cantidad": 2,
+          "total": 7
+        }
+      ],
+      "metodoPago": 1,
+      "tarjetaId": "1"
+    },
+    {
+      "id": "5e66",
+      "userId": "1",
+      "ubicacion": "Amazonas",
+      "estado": "pendiente",
+      "total": 7.5,
+      "productos": [
+        {
+          "productoId": "1",
+          "cantidad": 2,
+          "total": 7
+        }
+      ],
+      "metodoPago": 2,
+      "tarjetaId": null
+    },
+    {
+      "id": "5415",
+      "userId": "1",
+      "ubicacion": "Amazonas",
+      "estado": "pendiente",
+      "total": 4,
+      "productos": [
+        {
+          "productoId": "1",
+          "cantidad": 1,
+          "total": 3.5
+        }
+      ],
+      "metodoPago": 1,
+      "tarjetaId": "1dae"
+    },
+    {
+      "id": "a3c6",
+      "userId": "1",
+      "ubicacionId": "1",
+      "estado": "pendiente",
+      "total": 8,
+      "productos": [
+        {
+          "productoId": "4",
+          "cantidad": 1,
+          "total": 7.5
+        }
+      ],
+      "metodoPago": 1,
+      "tarjetaId": "6808"
+    },
+    {
+      "id": "8fdb",
+      "userId": "1",
+      "ubicacionId": "a156",
+      "estado": "pendiente",
+      "total": 10.5,
+      "productos": [
+        {
+          "productoId": "5",
+          "cantidad": 1,
+          "total": 4
+        },
+        {
+          "productoId": "3",
+          "cantidad": 2,
+          "total": 6
+        }
+      ],
+      "metodoPago": 1,
+      "tarjetaId": "3f8d"
+    },
+    {
+      "id": "f592",
+      "userId": "1",
+      "ubicacionId": "2",
+      "estado": "pendiente",
+      "total": 11,
+      "productos": [
+        {
+          "productoId": "1",
+          "cantidad": 1,
+          "total": 3.5
+        },
+        {
+          "productoId": "2",
+          "cantidad": 2,
+          "total": 7
+        }
+      ],
+      "metodoPago": 1,
+      "tarjetaId": "3f8d",
+      "fecha": "2024-12-26T17:22:06.916Z"
+    },
+    {
+      "id": "1b85",
+      "userId": "1",
+      "ubicacionId": "2",
+      "estado": "pendiente",
+      "total": 27,
+      "productos": [
+        {
+          "productoId": "2",
+          "cantidad": 3,
+          "total": 10.5
+        },
+        {
+          "productoId": "3",
+          "cantidad": 2,
+          "total": 16
+        }
+      ],
+      "metodoPago": 1,
+      "tarjetaId": "6808",
+      "fecha": "2024-12-26T16:40:06.916Z"
+    },
+    {
+      "id": "71c4",
+      "userId": "1",
+      "ubicacionId": "2",
+      "estado": "pendiente",
+      "total": 17,
+      "productos": [
+        {
+          "productoId": "7",
+          "cantidad": 1,
+          "total": 10.5
+        },
+        {
+          "productoId": "4",
+          "cantidad": 2,
+          "total": 6
+        }
+      ],
+      "metodoPago": 1,
+      "tarjetaId": "6808",
+      "fecha": "2025-01-13T16:56:06.916Z"
+    },
+    {
+      "id": "88cb",
+      "userId": "1",
+      "ubicacionId": "1",
+      "estado": "pendiente",
+      "total": 34,
+      "productos": [
+        {
+          "productoId": "2",
+          "cantidad": 5,
+          "total": 17.5
+        },
+        {
+          "productoId": "3",
+          "cantidad": 2,
+          "total": 16
+        }
+      ],
+      "metodoPago": 1,
+      "tarjetaId": "3f8d",
+      "fecha": "2025-01-13T20:49:07.610Z"
+    },
+    {
+      "id": "336b",
+      "userId": "1",
+      "ubicacionId": "1",
+      "estado": "pendiente",
+      "total": 30.5,
+      "productos": [
+        {
+          "productoId": "2",
+          "cantidad": 4,
+          "total": 14
+        },
+        {
+          "productoId": "3",
+          "cantidad": 2,
+          "total": 16
+        }
+      ],
+      "metodoPago": 1,
+      "tarjetaId": "3f8d",
+      "fecha": "2025-01-13T20:54:16.002Z"
+    },
+    {
+      "id": "72d9",
+      "userId": "1",
+      "ubicacionId": "1",
+      "estado": "pendiente",
+      "total": 32,
+      "productos": [
+        {
+          "productoId": "3",
+          "cantidad": 3,
+          "total": 24
+        },
+        {
+          "productoId": "5",
+          "cantidad": 1,
+          "total": 7.5
+        }
+      ],
+      "metodoPago": 1,
+      "tarjetaId": "9123",
+      "fecha": "2025-01-15T19:36:59.851Z"
+    },
+    {
+      "id": "9f79",
+      "userId": "1",
+      "ubicacionId": "1",
+      "estado": "pendiente",
+      "total": 42,
+      "productos": [
+        {
+          "productoId": "2",
+          "cantidad": 5,
+          "total": 17.5
+        },
+        {
+          "productoId": "3",
+          "cantidad": 3,
+          "total": 24
+        }
+      ],
+      "metodoPago": 1,
+      "tarjetaId": "1",
+      "fecha": "2025-01-19T13:37:42.820Z"
+    },
+    {
+      "id": "4a00",
+      "userId": "1",
+      "ubicacionId": "2",
+      "estado": "pendiente",
+      "total": 7.5,
+      "productos": [
+        {
+          "productoId": "2",
+          "cantidad": 1,
+          "total": 3.5
+        },
+        {
+          "productoId": "1",
+          "cantidad": 1,
+          "total": 3.5
+        }
+      ],
+      "metodoPago": 1,
+      "tarjetaId": "2",
+      "fecha": "2025-01-19T13:44:35.196Z"
+    },
+    {
+      "id": "6d8e",
+      "userId": "1",
+      "ubicacionId": "2",
+      "estado": "pendiente",
+      "total": 7.5,
+      "productos": [
+        {
+          "productoId": "1",
+          "cantidad": 2,
+          "total": 7
+        }
+      ],
+      "metodoPago": 1,
+      "tarjetaId": "46ef",
+      "fecha": "2025-01-19T13:49:20.387Z"
+    },
+    {
+      "id": "2597",
+      "userId": "4",
+      "ubicacionId": "49ac",
+      "estado": "pendiente",
+      "total": 51,
+      "productos": [
+        {
+          "productoId": "2",
+          "cantidad": 3,
+          "total": 10.5
+        },
+        {
+          "productoId": "3",
+          "cantidad": 5,
+          "total": 40
+        }
+      ],
+      "metodoPago": 2,
+      "tarjetaId": null,
+      "fecha": "2025-01-19T13:56:44.890Z"
+    },
+    {
+      "id": "9d7f",
+      "userId": "4",
+      "ubicacionId": "49ac",
+      "estado": "pendiente",
+      "total": 7.5,
+      "productos": [
+        {
+          "productoId": "1",
+          "cantidad": 2,
+          "total": 7
+        }
+      ],
+      "metodoPago": 1,
+      "tarjetaId": "68f4",
+      "fecha": "2025-01-19T14:03:14.215Z"
+    }
+  ]
+}

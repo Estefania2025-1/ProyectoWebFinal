@@ -1,0 +1,172 @@
+.cliente-pedido-app {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.cliente-pedido-fondo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url('../../pictures/fondoPagoCliente.png');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.cliente-pedido-principal {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+    gap: 5px;
+    flex: 2;
+}
+
+/*TABLE DE PEDIDOS*/
+
+.cliente-tabla-pedidos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.cliente-tabla-pedidos th, .cliente-tabla-pedidos td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.cliente-tabla-pedidos th {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.cliente-tabla-pedidos tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.cliente-numero-pedido-id {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.cliente-mas-detalles {
+    cursor: pointer;
+    color: #ff7f50;
+}
+
+.cliente-mas-detalles:hover {
+    text-decoration: underline;
+    color: #ff7f50;
+}
+
+.cliente-estado-pedido {
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.cliente-estado-pedido.confirmado {
+    color: #4caf50;
+}
+
+.cliente-estado-pedido.pendiente {
+    color: #ffcc00;
+}
+
+.cliente-estado.entregado {
+    color: #3E24A2;
+    cursor: pointer;
+}
+
+.cliente-estado-pago {
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.cliente-estado-pago.pagado {
+    color: #4caf50;
+}
+
+.cliente-estado-pago.pendiente {
+    color: #ffcc00;
+}
+
+/*
+.cliente-estado.pagado {
+    color: #4caf50;
+    cursor: pointer;
+}
+
+.cliente-estado.procesando {
+    color: #31C1FF;
+    cursor: pointer;
+}
+
+.cliente-estado.enviado {
+    color: #BF09FF;
+    cursor: pointer;
+}
+
+.cliente-estado.entregado {
+    color: #3E24A2;
+    cursor: pointer;
+}
+*/
+/*PAGINAS*/
+
+.cliente-seccion-paginacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cliente-mostrar-registros {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cliente-mostrar-registros label {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.cliente-select-registros {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.cliente-paginacion {
+    display: flex;
+    gap: 5px;
+}
+
+.cliente-boton-paginacion {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cliente-boton-paginacion:hover {
+    background-color: #ff7f50;
+    color: white;
+}
+
+.cliente-boton-paginacion.activo {
+    background-color: #ff7f50;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,247 @@
+.cliente-pago-app {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.cliente-pago-fondo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url('../../pictures/fondoPagoCliente.png');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* CONTENIDO PRINCIPAL */
+.cliente-pago-principal {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 50px;
+    justify-content: space-between;
+    flex: 2;
+}
+
+.cliente-pago-parte-izquierda {
+    flex: 2;
+}
+
+.cliente-pago-parte-izquierda h3 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #ff7f50;
+}
+
+.cliente-pago-direccion-envio {
+    margin-bottom: 20px; 
+}
+
+.cliente-pago-direccion-envio-datos {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.cliente-pago-direccion-item {
+    margin-bottom: 10px;
+    border: 2px solid #ff7f50;
+    padding: 15px;
+    border-radius: 8px;
+    width: 500px;
+}
+
+
+.cliente-pago-productos {
+    margin-bottom: 20px;
+}
+
+.cliente-pago-productos-lista {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.cliente-pago-producto-item {
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    width: 120px;
+
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.01), 0 8px 8px rgba(0, 0, 0, 0.02); 
+    transform: translateY(0.5px); 
+    transition: all 0.3s ease; 
+}
+
+.cliente-pago-producto-item:hover {
+    border-color: #ff7f50;
+    transform: translateY(-5px); 
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1), 0 24px 48px rgba(0, 0, 0, 0.2); 
+}
+
+.cliente-pago-producto-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.cliente-pago-metodos {
+    border-radius: 8px;
+}
+
+.cliente-pago-metodos label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.cliente-pago-metodos input[type="radio"] {
+    margin-right: 10px;
+}
+
+
+.cliente-pago-tarjetas {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cliente-pago-tarjeta-item {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #333;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    gap: 5px;
+}
+
+.cliente-pago-tarjeta-item:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-3px);
+}
+
+.cliente-pago-tarjeta-item input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+.cliente-pago-tarjeta-item input[type="radio"]:checked {
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+}
+
+.agregar-tarjeta {
+    color: #ff7f50;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.agregar-tarjeta:hover {
+    color: #e8673c;
+}
+
+
+
+
+
+
+
+
+.cliente-pago-detalles {
+    /*border: 2px solid #ff7f50;*/
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.cliente-pago-resumen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 300px;
+    height: 380px;
+
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1); 
+    transform: translateY(1px); 
+    transition: all 0.3s ease; 
+}
+
+.cliente-pago-resumen h3 {
+    color: #ff7f50;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.cliente-pago-resumen p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.cliente-pago-resumen strong {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.cliente-pago-resumen-detalle {
+    display: flex;
+    flex-direction: column;
+}
+
+.cliente-pago-resumen-detalle p {
+    font-size: 1rem;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cliente-pago-btn-pagar {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #ff7f50;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cliente-pago-btn-pagar:hover {
+    background-color: #e8673c;
+}
+
+.cliente-pago-nota-privacidad {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 30px;
+    line-height: 1.5;
+    text-align: center;
+}

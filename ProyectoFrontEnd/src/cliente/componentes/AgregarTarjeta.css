@@ -1,0 +1,131 @@
+.agregar-tarjeta-principal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.agregar-tarjeta-modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.agregar-tarjeta-modal-content h3 {
+    color: #ff7f50;
+}
+
+.agregar-tarjeta-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.agregar-tarjeta-numero {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+}
+
+.agregar-tarjeta-items {
+    display: flex;
+    text-align: left;
+    gap: 15px;
+}
+
+.agregar-tarjeta-botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.agregar-tarjeta-btn-confirmar {
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 30px;
+}
+
+.agregar-tarjeta-cerrar-modal {
+    margin-top: 20px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
+.tooltip-container {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-size: 18px;
+    color: #007bff;
+    margin-left: 5px;
+}
+
+.tooltip-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.tooltip {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    bottom: 110%;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 500px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    padding: 25px;
+
+    display: flex;
+    gap: 20px;
+}
+
+.tooltip img {
+    margin: 10px 0;
+    width: 200px;
+}
+
+.tooltip p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.error-codigo {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}

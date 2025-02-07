@@ -1,0 +1,82 @@
+.distribuidor-reporte-app {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.distribuidor-reporte-principal {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.resumen-seccion {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.resumen-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.resumen-card span {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.graficos-seccion {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.grafico-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.productos-seccion {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.productos-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 0 10px;
+}
+
+.productos-card table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.productos-card th, .productos-card td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.bajo-stock {
+    color: red;
+    font-weight: bold;
+}

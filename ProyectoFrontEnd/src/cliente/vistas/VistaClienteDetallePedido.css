@@ -1,0 +1,107 @@
+.cliente-pedido-individual-app {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.cliente-pedido-individual-principal {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cliente-pedido-individual-ambos{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cliente-pedido-individual-info-pedido {
+    width: 45%;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ff7f50;
+    border-radius: 8px;
+}
+
+.cliente-pedido-individual-info-pedido h2 {
+    color: #ff7f50;
+    border-bottom: 2px solid #ff7f50;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.cliente-pedido-individual-direccion-envio {
+    width: 45%;
+    padding: 15px;
+}
+
+.cliente-pedido-individual-direccion-envio h3 {
+    color: #ff7f50;
+    margin-bottom: 10px;
+}
+
+.cliente-pedido-individual-direccion-box {
+    border: 1px solid #ff7f50;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cliente-pedido-individual-estado-entrega {
+    width: 100%;
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.cliente-pedido-individual-estado-entrega strong {
+    color: #ff7f50;
+}
+
+.cliente-pedido-individual-info-vendedor {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.cliente-pedido-individual-info-vendedor h3 {
+    color: #ff7f50;
+    margin-bottom: 10px;
+}
+
+.cliente-pedido-individual-vendedor-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.cliente-pedido-individual-vendedor-card img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #ff7f50;
+    object-fit: cover;
+}
+
+.cliente-pedido-individual-vendedor-nombre {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #ff7f50;
+}
+
+.cliente-pedido-individual-mapa-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+iframe {
+    border-radius: 8px;
+}

@@ -1,0 +1,91 @@
+
+
+.registro-aplicacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+
+    background-image: url('../../pictures/fondoRegistro.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.registro-contenedor {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+}
+
+.registro-logo-contenedor {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.registro-logo {
+    width: 150px;
+    height: auto;
+}
+
+.registro-nombre-aplicacion {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.registro-formulario .registro-campo {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.registro-campo label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.registro-campo input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.registro-error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 0.8px;
+    margin-bottom: 10px;
+}
+
+.registro-exito {
+    color: green;
+    font-size: 0.9rem;
+    margin-top: 0.8px;
+    margin-bottom: 10px;
+}
+
+.registro-boton {
+    background-color: #ff6b35;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.registro-boton:hover {
+    background-color: #ff5a1a;
+}

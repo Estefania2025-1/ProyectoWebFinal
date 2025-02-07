@@ -1,0 +1,271 @@
+.distribuidor-gestion-app {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.distribuidor-gestion-principal {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+    gap: 5px;
+    flex: 2;
+}
+
+/* Cabecera */
+.distribuidor-gestion-header {
+    padding: 10px;
+    position: sticky;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+}
+
+.distribuidor-gestion-header h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+/* Botones de acción */
+.distribuidor-gestion-action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.distribuidor-gestion-action-buttons button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 12px;
+    border: 2px solid #FF6F61;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #FF6F61;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.distribuidor-gestion-action-buttons button:hover {
+    background-color: #FF6F61;
+    color: #ffffff;
+}
+
+.distribuidor-gestion-action-buttons svg {
+    font-size: 16px;
+    /* Tamaño de los íconos */
+}
+
+
+/*TABLE DE PEDIDOS*/
+
+.distribuidor-gestion-tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.distribuidor-gestion-tabla th,
+.distribuidor-gestion-tabla td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.distribuidor-gestion-tabla th {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.distribuidor-gestion-tabla tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.distribuidor-gestion-numero-id {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.distribuidor-gestion-mas-detalles {
+    cursor: pointer;
+    color: #ff7f50;
+}
+
+.distribuidor-gestion-mas-detalles:hover {
+    text-decoration: underline;
+    color: #ff7f50;
+}
+
+.distribuidor-gestion-editar {
+    cursor: pointer;
+    color: #506aff;
+}
+
+.distribuidor-gestion-editar:hover {
+    text-decoration: underline;
+    color: #16c057;
+}
+
+.distribuidor-gestion-eliminar {
+    cursor: pointer;
+    color: #506aff;
+}
+
+.distribuidor-gestion-eliminar:hover {
+    text-decoration: underline;
+    color: #d82121;
+}
+
+.distribuidor-estado {
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.distribuidor-estado.confirmado {
+
+    color: #4caf50;
+    cursor: pointer;
+}
+
+.distribuidor-estado.pendiente {
+    color: #ffcc00;
+    cursor: pointer;
+}
+
+.distribuidor-estado.procesando {
+    color: #31C1FF;
+    cursor: pointer;
+}
+
+.distribuidor-estado.enviado {
+    color: #BF09FF;
+    cursor: pointer;
+}
+
+.distribuidor-estado.entregado {
+    color: #3E24A2;
+    cursor: pointer;
+}
+
+/*PAGINAS*/
+
+.distribuidor-seccion-paginacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.distribuidor-mostrar-registros {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.distribuidor-mostrar-registros label {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.distribuidor-select-registros {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.distribuidor-paginacion {
+    display: flex;
+    gap: 5px;
+}
+
+.distribuidor-boton-paginacion {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.distribuidor-boton-paginacion:hover {
+    background-color: #ff7f50;
+    color: white;
+}
+
+.distribuidor-boton-paginacion.activo {
+    background-color: #ff7f50;
+    color: white;
+    font-weight: bold;
+}
+
+/* Mensajes de error y éxito */
+.error {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+}
+
+.exito {
+    color: green;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+/* Estilos para filtros*/
+
+.distribuidor-menu-filtros {
+    position: absolute;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    top: 180px;
+    left: 70%;
+    z-index: 100;
+}
+
+.distribuidor-menu-filtros p {
+    margin: 5px 0;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+}
+
+.distribuidor-menu-filtros p:hover {
+    background: #f8f8f8;
+}
+
+
+
+
+
+/* FOOTER */
+.distribuidor-footer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+
+    background-image: url('../../pictures/fondoFooterBack.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+

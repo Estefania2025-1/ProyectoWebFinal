@@ -1,0 +1,258 @@
+.vista-perfil-app {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+/* Banner */
+.perfil-banner {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+
+    background-image: url('../../pictures/fondoPerfil.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+
+}
+
+.perfil-foto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.perfil-banner h2 {
+    margin: 10px 0 0;
+    font-size: 1.8rem;
+}
+
+
+.perfil-imagen-container {
+    position: relative;
+    display: inline-block;
+}
+
+.perfil-boton-agregar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    color: #ff7f50;
+    border: 2px solid #ff7f50;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.perfil-boton-agregar:hover {
+    background-color: #e06b3c;
+}
+
+
+/* Contenido */
+.vista-perfil-content {
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.vista-perfil-datos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.perfil-informacion, .perfil-tarjetas, .perfil-direcciones {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1 1;
+    max-width: 400px;
+}
+
+.vista-perfil-datos h3 {
+    margin-top: 0;
+    color: #ff4500;
+}
+
+.perfil-tarjetas h3 {
+    margin-top: 0;
+    color: #ff4500;
+}
+
+/* Informacion */
+.perfil-informacion{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.perfil-informacion form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cambiar-password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.perfil-editar-btn {
+    margin-bottom: 5px;
+    width: 80px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.perfil-editar-btn:hover {
+    background-color: #e06b3c;
+}
+
+/* Direcciones */
+.perfil-direcciones .perfil-item-direccion {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.perfil-agregar-direccion {
+    background-color: #ff7f50;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.perfil-agregar-direccion:hover {
+    background-color: #e06b3c;
+}
+
+/* Tarjetas */
+
+.perfil-tarjetas .perfil-item-tarjeta {
+    border: 2px solid #ff7f50;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.perfil-agregar-tarjeta {
+    background-color: #ff7f50;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.perfil-agregar-tarjeta:hover {
+    background-color: #e06b3c;
+}
+
+
+
+
+/* telefono*/
+.perfil-agregar-telefono-formulario {
+    margin-top: 20px;
+}
+
+.perfil-agregar-telefono-formulario input {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.perfil-agregar-telefono-botones button {
+    padding: 8px 16px;
+    margin-top: 10px;
+}
+
+/*BOTONES PARA EDITAR*/
+.perfil-informacion-btn-editar {
+    display: flex;
+    gap: 10px;
+}
+
+.perfil-editar-btn {
+    width: 95px;
+}
+
+/*Campos para editar*/
+
+.perfil-informacion-editar {
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil-campos-editar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.perfil-campo-editar-individual {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1 1;
+    max-width: 400px;
+
+}
+
+.perfil-editar-btn-confirmar{
+    width: 100px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    /*Centrar el texto del boton*/
+    margin: 0 auto;
+    display: block;
+    
+}
+
+.perfil-editar-btn-cerrar{
+    width: 100px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    /*Centrar el texto del boton*/
+    margin: 0 auto;
+    display: block;
+    
+}

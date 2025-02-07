@@ -1,0 +1,250 @@
+/*HEADER*/
+.App {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ff7f50;
+    margin-bottom: 5px;
+    flex: 0;
+}
+
+.header-contenedor-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header-logo {
+    width: 70px;
+    margin-right: 0%;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header-contenedor-informativo {
+    display: flex;
+    align-items: center;
+}
+
+
+.header nav a {
+    margin: 0 10px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+    padding: 5px 1px;
+}
+
+.header nav a:hover {
+    background-color: #ff7f50;
+    cursor: pointer;
+}
+
+.header-profile-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header-profile-container {
+    position: relative;
+}
+
+.profile-menu {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 100;
+    min-width: 150px;
+    overflow: hidden;
+}
+
+.profile-menu div {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+.profile-menu div:hover {
+    background-color: #ff7f50;
+    color: white;
+}
+
+
+/* MENU */
+
+.menu-app {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.menu-principal {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+    background-image: url('../../pictures/fondo1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.menu-contenido {
+    background-color: white;
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    height: 70%;
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-titulo {
+    color: #ff7f50;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.menu-contenido h2::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: #ff7f50;
+    margin: 8px auto 0;
+    border-radius: 2px;
+}
+
+.menu-opciones {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.menu-opcion {
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px;
+    border: 2px solid #ff7f50;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    flex: 1;
+    margin: 0 10px;
+    height: 90%;
+    width: 150px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-opcion:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.menu-opcion img {
+    width: 60px;
+    height: 60px;
+}
+
+.menu-opcion p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+
+/* Mensajes */
+.mensajes-container {
+    position: fixed;
+    top: 90px;
+    right: 20px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.mensajes-container h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.mensaje {
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #555;
+    display: flex;
+    cursor: pointer;
+}
+
+.mensaje-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.mensaje-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.mensaje-user {
+    font-weight: bold;
+    color: #ff7f50;
+}
+
+.mensaje p {
+    margin: 0;
+}
+
+.mensaje strong {
+    color: #ff7f50;
+}

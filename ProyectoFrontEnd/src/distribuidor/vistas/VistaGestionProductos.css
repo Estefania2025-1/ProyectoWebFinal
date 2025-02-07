@@ -1,0 +1,388 @@
+.distribuidor-inventario-app {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.distribuidor-inventario-principal {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+    gap: 5px;
+    flex: 2;
+}
+
+/* Cabecera */
+.distribuidor-inventario-header {
+    padding: 10px;
+    position: sticky;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+}
+
+.distribuidor-inventario-header h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+/* Botones de acción */
+.distribuidor-inventario-action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.distribuidor-inventario-action-buttons button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 12px;
+    border: 2px solid #FF6F61;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #FF6F61;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.distribuidor-inventario-action-buttons button:hover {
+    background-color: #FF6F61;
+    color: #ffffff;
+}
+
+.distribuidor-inventario-action-buttons svg {
+    font-size: 16px;
+    /* Tamaño de los íconos */
+}
+
+
+/*TABLE DE PEDIDOS*/
+
+.distribuidor-inventario-tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.distribuidor-inventario-tabla th,
+.distribuidor-inventario-tabla td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.distribuidor-inventario-tabla th {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.distribuidor-inventario-tabla tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.distribuidor-inventario-numero-id {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.distribuidor-inventario-mas-detalles {
+    cursor: pointer;
+    color: #ff7f50;
+}
+
+.distribuidor-inventario-mas-detalles:hover {
+    text-decoration: underline;
+    color: #ff7f50;
+}
+
+.distribuidor-inventario-editar {
+    cursor: pointer;
+    color: #506aff;
+}
+
+.distribuidor-inventario-editar:hover {
+    text-decoration: underline;
+    color: #16c057;
+}
+
+.distribuidor-inventario-eliminar {
+    cursor: pointer;
+    color: #506aff;
+}
+
+.distribuidor-inventario-eliminar:hover {
+    text-decoration: underline;
+    color: #d82121;
+}
+
+
+
+
+
+
+.distribuidor-estado {
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.distribuidor-estado.confirmado {
+
+    color: #4caf50;
+    cursor: pointer;
+}
+
+.distribuidor-estado.pendiente {
+    color: #ffcc00;
+    cursor: pointer;
+}
+
+.distribuidor-estado.procesando {
+    color: #31C1FF;
+    cursor: pointer;
+}
+
+.distribuidor-estado.enviado {
+    color: #BF09FF;
+    cursor: pointer;
+}
+
+.distribuidor-estado.entregado {
+    color: #3E24A2;
+    cursor: pointer;
+}
+
+/*PAGINAS*/
+
+.distribuidor-seccion-paginacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.distribuidor-mostrar-registros {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.distribuidor-mostrar-registros label {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.distribuidor-select-registros {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.distribuidor-paginacion {
+    display: flex;
+    gap: 5px;
+}
+
+.distribuidor-boton-paginacion {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.distribuidor-boton-paginacion:hover {
+    background-color: #ff7f50;
+    color: white;
+}
+
+.distribuidor-boton-paginacion.activo {
+    background-color: #ff7f50;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+/* Estilos para el fondo del modal */
+.distribuidor-inventario-form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Asegura que esté por encima de todo */
+}
+
+/* Contenedor del formulario */
+.distribuidor-inventario-form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    max-width: 90%;
+    position: relative;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Botón para cerrar el formulario */
+.distribuidor-inventario-form-container .cerrar-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ff6f61;
+    transition: color 0.3s;
+}
+
+.distribuidor-inventario-form-container .cerrar-modal:hover {
+    color: #ff3b2f;
+}
+
+/* Estilos para el formulario */
+.distribuidor-inventario-form-container h3 {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333;
+}
+
+.distribuidor-inventario-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.distribuidor-inventario-form-container label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.distribuidor-inventario-form-container input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Botones del formulario */
+.distribuidor-inventario-form-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.distribuidor-inventario-form-container button[type="submit"] {
+    background: #ff6f61;
+    color: white;
+    font-weight: bold;
+}
+
+.distribuidor-inventario-form-container button[type="submit"]:hover {
+    background: #ff3b2f;
+}
+
+.distribuidor-inventario-form-container button[type="button"] {
+    background: #ccc;
+    color: #333;
+}
+
+.distribuidor-inventario-form-container button[type="button"]:hover {
+    background: #aaa;
+}
+
+/* Mensajes de error y éxito */
+.error {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+}
+
+.exito {
+    color: green;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+/* Estilos para filtros*/
+
+.distribuidor-inventario-menu-filtros {
+    position: absolute;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    top: 180px;
+    left: 70%;
+    z-index: 100;
+}
+
+.distribuidor-inventario-menu-filtros p {
+    margin: 5px 0;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+}
+
+.distribuidor-inventario-menu-filtros p:hover {
+    background: #f8f8f8;
+}
+
+
+
+
+
+/* FOOTER */
+.distribuidor-footer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+
+    background-image: url('../../pictures/fondoFooterBack.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
