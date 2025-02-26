@@ -1,0 +1,45 @@
+INSERT INTO proyectodos.products 
+(nombre, tipo, subtipo, peso, cantidad, precioNuevo, precioRecarga, descripcion, informacionAdicional, imagenPrincipal, imagenesSecundarias, esRecargable, disponibilidad, createdAt, updatedAt)
+VALUES
+('GLP Cilindro Doméstico', 'GLP en Cilindros', 'Doméstico', 15, 100, 45, 3.5, 'Gas doméstico ideal para el hogar.', 
+ 'Nuestro producto proporciona una solución eficaz a las necesidades energéticas de los usuarios de GLP envasado. A través de nuestra red de Distribuidores Oficiales, ofrecemos una amplia cobertura a nivel país. El proceso de envasado está desarrollado con tecnología y procedimientos que aseguran el cumplimiento de los más altos estándares de calidad y respeto hacia el medio ambiente.',
+ 'https://www.congasca.com/wp-content/uploads/2022/10/congas-cilindro.png',
+ '["https://www.congasca.com/wp-content/uploads/slider/cache/70503dd218e9c0e4dce649eaebbea03f/congas-banner5.jpg", "https://planv.com.ec/wp-content/uploads/2024/07/congas-foto-1-1024x576.jpg", "https://ssicointec.com/wp-content/uploads/2018/08/ssicointec-talleres-reparacion-tanques-acer-glp-01.png"]',
+ true, 'disponible', '2025-01-19 18:10:08', '2025-01-19 18:10:08'),
+
+('GLP Cilindro Comercial Tipo I', 'GLP en Cilindros', 'Comercial', 15, 100, 45, 3.5, 'Gas ideal para comercios de pequeña y mediana escala', 
+ 'Ofrecemos soluciones integrales y competitivas a nuestros clientes comerciales actuales y potenciales a través de la utilización de un combustible, confiable, seguro y amigable con el medio ambiente. Cada día son más los establecimientos de comercio como restaurantes, hoteles, panaderías, hospitales y lavanderías que se benefician con las ventajas del GLP en sus procesos productivos.',
+ 'https://www.congasca.com/wp-content/uploads/2022/10/cilindro_industrial.png',
+ '["https://www.congasca.com/wp-content/uploads/slider/cache/70503dd218e9c0e4dce649eaebbea03f/congas-banner5.jpg", "https://planv.com.ec/wp-content/uploads/2024/07/congas-foto-1-1024x576.jpg", "https://ssicointec.com/wp-content/uploads/2018/08/ssicointec-talleres-reparacion-tanques-acer-glp-01.png"]',
+ true, 'disponible', '2025-01-19 18:10:08', '2025-01-19 18:10:08'),
+
+('GLP Cilindro Comercial Tipo II', 'GLP en Cilindros', 'Comercial', 45, 100, 90, 8, 'Gas ideal para comercios de gran escala', 
+ 'Ofrecemos soluciones integrales y competitivas a nuestros clientes comerciales actuales y potenciales a través de la utilización de un combustible, confiable, seguro y amigable con el medio ambiente. Cada día son más los establecimientos de comercio como restaurantes, hoteles, panaderías, hospitales y lavanderías que se benefician con las ventajas del GLP en sus procesos productivos.',
+ 'https://www.congasca.com/wp-content/uploads/2022/10/cilindro_industrial.png',
+ '["https://www.congasca.com/wp-content/uploads/slider/cache/70503dd218e9c0e4dce649eaebbea03f/congas-banner5.jpg", "https://planv.com.ec/wp-content/uploads/2024/07/congas-foto-1-1024x576.jpg", "https://ssicointec.com/wp-content/uploads/2018/08/ssicointec-talleres-reparacion-tanques-acer-glp-01.png"]',
+ true, 'disponible', '2025-01-19 18:10:08', '2025-01-19 18:10:08'),
+
+('GLP Granel Residencial', 'GLP a Granel', 'Residencial', 1000, 100, 90, 10, 'Gas a granel para residencias grandes.', 
+ 'En CONGAS creamos soluciones personalizadas para satisfacer los requerimientos energéticos de los usuarios de GLP a granel. Nos adecuamos a tu espacio y equipos de consumo, aplicando la solución más conveniente, brindando seguridad para ti y tu familia.',
+ 'https://www.congasca.com/wp-content/uploads/2022/02/congas-residencial.jpg',
+ '["https://www.congasca.com/wp-content/uploads/slider/cache/70503dd218e9c0e4dce649eaebbea03f/congas-banner5.jpg", "https://planv.com.ec/wp-content/uploads/2024/07/congas-foto-1-1024x576.jpg", "https://ssicointec.com/wp-content/uploads/2018/08/ssicointec-talleres-reparacion-tanques-acer-glp-01.png"]',
+ true, 'disponible', '2025-01-19 18:10:08', '2025-01-19 18:10:08'),
+
+('GLP Granel Industrial', 'GLP a Granel', 'Industrial', 2000, 100, 150, 50, 'Gas a granel para industrias.', 
+ 'Gas a granel especialmente diseñado para necesidades industriales, disponible en volúmenes de 2000L.',
+ 'https://www.congasca.com/wp-content/uploads/2022/10/congas-cilindro.png',
+ '["https://www.congasca.com/wp-content/uploads/slider/cache/70503dd218e9c0e4dce649eaebbea03f/congas-banner5.jpg", "https://planv.com.ec/wp-content/uploads/2024/07/congas-foto-1-1024x576.jpg", "https://ssicointec.com/wp-content/uploads/2018/08/ssicointec-talleres-reparacion-tanques-acer-glp-01.png"]',
+ true, 'disponible', '2025-01-19 18:10:08', '2025-01-19 18:10:08'),
+
+('GLP Granel Residencial', 'GLP a Granel', 'Residencial', 1000, 100, 4, 4, 'Gas a granel para residencias grandes.', 
+ 'Gas a granel de alta eficiencia para hogares grandes, disponible en volúmenes de 1000L.',
+ 'https://www.congasca.com/wp-content/uploads/2022/10/congas-cilindro.png',
+ '["https://www.congasca.com/wp-content/uploads/slider/cache/70503dd218e9c0e4dce649eaebbea03f/congas-banner5.jpg", "https://planv.com.ec/wp-content/uploads/2024/07/congas-foto-1-1024x576.jpg", "https://ssicointec.com/wp-content/uploads/2018/08/ssicointec-talleres-reparacion-tanques-acer-glp-01.png"]',
+ true, 'disponible', '2025-01-19 18:10:08', '2025-01-19 18:10:08'),
+
+('GLP Granel AgroIndustrial', 'GLP a Granel', 'AgroIndustrial', 2000, 100, 150, 50, 'Gas a granel para industrias.', 
+ 'Gas a granel para sectores agroindustriales, con un volumen de 2000L por cilindro.',
+ 'https://www.congasca.com/wp-content/uploads/2022/10/congas-cilindro.png',
+ '["https://www.congasca.com/wp-content/uploads/slider/cache/70503dd218e9c0e4dce649eaebbea03f/congas-banner5.jpg", "https://planv.com.ec/wp-content/uploads/2024/07/congas-foto-1-1024x576.jpg", "https://ssicointec.com/wp-content/uploads/2018/08/ssicointec-talleres-reparacion-tanques-acer-glp-01.png"]',
+ true, 'disponible', '2025-01-19 18:10:08', '2025-01-19 18:10:08');
+
